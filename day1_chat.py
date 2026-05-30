@@ -10,6 +10,7 @@ load_dotenv()
 def chat_with_ai(user_input):
     # 从环境变量中读取 API 密钥
     api_key = os.getenv("ARK_API_KEY")
+    
     # 目标接口地址，这里使用 ARK 聊天完成接口
     url = "https://ark.cn-beijing.volces.com/api/v3/chat/completions"
 
